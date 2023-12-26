@@ -39,11 +39,16 @@ public class TwitterClient implements Client {
 
     @Override
     public String toString() {
-        return "TwitterClient{" +
-                "user=" +
-                 user +
-                ", receivedMessages=" +
-                 receivedMessages +
+        return "TwitterClient{" 
+            +
+                "user=" 
+            +
+                 user 
+            +
+                ", receivedMessages=" 
+            +
+                 receivedMessages 
+            +
                 '}';
     }
 }
