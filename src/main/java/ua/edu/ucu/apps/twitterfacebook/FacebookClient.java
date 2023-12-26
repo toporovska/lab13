@@ -40,11 +40,16 @@ public class FacebookClient implements Client {
 
     @Override
     public String toString() {
-        return "FacebookClient{" +
-                "user=" + 
-                user +
-                ", receivedMessages=" +
-                receivedMessages +
+        return "FacebookClient{" 
+            +
+                "user=" 
+            + 
+                user 
+            +
+                ", receivedMessages=" 
+            +
+                receivedMessages 
+            +
                 '}';
     }
 }
