@@ -13,15 +13,26 @@ public class Company {
 
     @Override
     public String toString() {
-        String newstr = "Company{" +
-                "name='" + 
-                name + 
-                '\'' +
-                ", description='" + 
-                description + 
-                '\'' +
-                ", logo='" + 
-                logo + '\'' +
+        String newstr = "Company{" 
+            +
+                "name='"
+            + 
+                name 
+            + 
+                '\''
+            +
+                ", description='" 
+            + 
+                description 
+            + 
+                '\'' 
+            +
+                ", logo='" 
+            + 
+                logo 
+            + 
+                '\'' 
+            +
                 '}';
         return newstr;
     }
